@@ -1,0 +1,68 @@
+html {
+  font-family: Open Sans;
+  font-style: normal;
+}
+
+header {
+  display: flex;
+  padding-top: 68px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* width: 1000px; */
+  height: 66px;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 27px;
+}
+
+.header-logo {
+  display: flex;
+  justify-content: space-between;
+  width: 428px;
+  height: 73px;
+}
+
+.logo-img {
+  width: 72px;
+  height: 72px;
+  background-image: url(../img/avocadoLogo.svg);
+}
+
+.logo-text {
+  width: 327px;
+  height: 68px;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 68px;
+  color: #94DA3A;
+  text-shadow: 6px 6px 0px rgba(175, 6, 6, 0.5); 
+}
+
+.choose-menu {
+  display: flex;
+  align-items: center;
+  width: 228px;
+  height: 48px;
+}
+
+.choose-icon {
+  background-image: url(../img/choose-icon.svg);
+  width: 50px;
+  height: 48px;
+}
+
+.call-us-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+}
+
+.call-us-icon {
+  width: 30px;
+  height: 30px;
+  background-image: url(../img/call-icon.svg);
+}
