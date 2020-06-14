@@ -16,7 +16,7 @@ nav {
   height: 66px;
   font-weight: 600;
   font-size: 15px;
-  line-height: 27px;
+  line-height: 20px;
 }
 
 .header-logo {
@@ -58,11 +58,18 @@ nav {
 .call-us-wrapper {
   display: flex;
   justify-content: center;
-  width: 200px;
+  align-items: center;
+  width: 400px;
 }
 
 .call-us-icon {
   width: 30px;
   height: 30px;
   background-image: url(../img/call-icon.svg);
+}
+
+.call-us-info-wrapper {
+  display: flex;
+  flex-direction: column;
+
 }
