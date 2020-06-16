@@ -33,6 +33,31 @@ function App() {
         </nav>
 
       </header>
+
+      <div className="delivery-content">
+
+        <div className="delivery-description-wrapper">
+          <div className="delivery-header-text">
+            <div className="desc-text-wrapper">
+              <div className="delivery-desc-text">Доставка здорового питания в Москве</div>
+
+              <div className="salad-picture"/>
+            </div>
+            <span className="eat-well-text">Питайся правильно от 600 рублей в день!</span>
+          </div>
+
+          <button className="pick-ration-btn">ПОДОБРАТЬ РАЦИОН</button>
+
+          <div className="our-advantages">
+            <div className="advantage">Меню составляется профессионалами</div><div className="green-border"/>
+            <div className="advantage">Доставка в любое время</div><div className="green-border"/>
+            <div className="advantage">Свежие и полезные продукты</div>
+          </div>
+        </div>
+
+        <div className="ramen-picture"/>
+
+      </div>
     </div>
     </>
   );
