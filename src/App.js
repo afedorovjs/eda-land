@@ -58,6 +58,88 @@ function App() {
         <div className="ramen-picture"/>
 
       </div>
+
+      <div className="ration-content">
+
+        <h1>Выбор рациона</h1>
+        <div className="ration-desc-text">Каждый набор рассчитывается индивидуально 
+          диетологом под Ваши требования, и Вы получаете высококачественный продукт, сбалансированный по 
+          белкам, жирам и углеводам
+        </div>
+
+        <div className="ration-cards-wrapper">
+
+          <div className="ration-card">
+            <div className="ration-image-1"/>
+            <div className="ration-h1">СБАЛАНСИРОВАННЫЙ</div>
+            <div className="ration-card-text">
+              Оптимальная суточная норма для энергичной и полноценной жизни.
+              Подойдет, если вам необходимо поддерживать себя в форме.
+            </div>
+            <button className="ration-card-order-btn">ЗАКАЗАТЬ</button>
+          </div>
+
+          <div className="ration-card">
+            <div className="ration-image-2"/>
+            <div className="ration-h1">ДЛЯ ПОХУДЕНИЯ</div>
+            <div className="ration-card-text">
+            Система питания для плавного и безопасного снижения веса. Рассчитывается исходя из ваших
+            личных показателей и позволяет худеть комфортно и без вреда для организма.
+            </div>
+            <button className="ration-card-order-btn">ЗАКАЗАТЬ</button>
+          </div>
+
+          <div className="ration-card">
+            <div className="ration-image-3"/>
+            <div className="ration-h1">ДЛЯ НАБОРА МАССЫ</div>
+            <div className="ration-card-text">
+              Меню составлено с максимальным количеством белков и минимальным количеством жиров 
+              и углеводов, что поможет
+              эффективно набрать мышечную массу в период интенсивных тренировок.
+            </div>
+            <button className="ration-card-order-btn">ЗАКАЗАТЬ</button>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div className="how-we-work-content">
+          <h1 className="how-we-work-text">Как мы работаем?</h1>
+
+          <div className="how-we-work-cards-wrapper">
+            <div className="work-desc-card">
+              <div className="how-number">1</div>
+              <div className="work-desc-text">Вас консультирует наш диетолог.</div>
+            </div>
+
+            <div className="work-desc-card">
+              <div className="how-number">2</div>
+              <div className="work-desc-text">Далее он подбирает для вас рацион питания исходя из ваших требований.</div>
+            </div>
+
+            <div className="work-desc-card">
+              <div className="how-number">3</div>
+              <div className="work-desc-text">Мы закупаем необходимые продукты самого лучшего качества.</div>
+            </div>
+
+            <div className="work-desc-card">
+              <div className="how-number">4</div>
+              <div className="work-desc-text">Наши повара готовят для вас.</div>
+            </div>
+
+            <div className="work-desc-card">
+              <div className="how-number">5</div>
+              <div className="work-desc-text">Мы осущесвляем доставку в удобное для вас время.</div>
+            </div>
+
+            <div className="work-desc-card">
+              <div className="how-number">6</div>
+              <div className="work-desc-text">Вам остается лишь насладиться вкусными блюдами!</div>
+            </div>
+          </div>
+      </div>
+
     </div>
     </>
   );
